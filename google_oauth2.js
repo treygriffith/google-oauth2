@@ -65,7 +65,7 @@ var google_oauth2 = function(client_id, options) {
 		//scope:,
 		//state:,
 		approval_prompt: "auto",
-		redirect_uri: window.location,
+		redirect_uri: window.location.href,
 		token_info_endpoint: "https://www.googleapis.com/oauth2/v1/tokeninfo",
 		error: alert
 	};
